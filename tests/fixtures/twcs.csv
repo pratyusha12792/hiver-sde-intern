@@ -1,0 +1,8 @@
+tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_tweet_id
+1,user-a,true,2017-01-01T00:00:00Z,My music will not play,2,
+2,SpotifyCares,false,2017-01-01T00:01:00Z,Please restart the app and try again,3,1
+3,user-a,true,2017-01-01T00:02:00Z,That fixed it,,2
+4,user-b,true,2017-01-02T00:00:00Z,Unrelated message,,
+5,user-c,true,2017-01-03T00:00:00Z,I was charged twice,6,
+6,SpotifyCares,false,2017-01-03T00:01:00Z,Please contact our secure billing team,,5
+

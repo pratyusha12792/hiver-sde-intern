@@ -1,0 +1,10 @@
+{
+  "account_access_security": "Login, recovery, compromised accounts, or identity checks.",
+  "payments_refunds": "Charges, payment failures, refunds, or billing disputes.",
+  "plan_management_eligibility": "Premium, Family, Duo, Student, trials, or plan changes.",
+  "playback_connectivity": "Playback, downloads, offline use, networking, or audio failures.",
+  "app_device_features": "App behavior, supported devices, playlists, library, or feature use.",
+  "content_availability_metadata": "Missing content, artist or track metadata, or regional availability.",
+  "feedback_other": "Feedback or requests that do not fit another intent."
+}
+

@@ -1,0 +1,133 @@
+{
+  "representative": {
+    "trivial": {
+      "count": 100,
+      "intent_accuracy": 0.21,
+      "intent_macro_f1": 0.049586776859504134,
+      "escalation_precision": 0.15,
+      "escalation_recall": 1.0,
+      "escalation_f1": 0.2608695652173913,
+      "policy_safe_auto_rate": 0.0,
+      "safe_automation_rate": 0.0,
+      "safe_automation_95ci": [
+        0.0,
+        0.0
+      ],
+      "unsafe_auto_handle_rate": 0.0,
+      "judge_reply_pass_rate": 0.0,
+      "model_error_rate": 0.0
+    },
+    "simple": {
+      "count": 100,
+      "intent_accuracy": 0.33,
+      "intent_macro_f1": 0.3418950547521976,
+      "escalation_precision": 0.09615384615384616,
+      "escalation_recall": 0.3333333333333333,
+      "escalation_f1": 0.14925373134328357,
+      "policy_safe_auto_rate": 0.38,
+      "safe_automation_rate": 0.1111111111111111,
+      "safe_automation_95ci": [
+        0.0,
+        0.3333333333333333
+      ],
+      "unsafe_auto_handle_rate": 0.20833333333333334,
+      "judge_reply_pass_rate": 0.3333333333333333,
+      "model_error_rate": 0.0
+    },
+    "main": {
+      "count": 100,
+      "intent_accuracy": 0.75,
+      "intent_macro_f1": 0.717558057705841,
+      "escalation_precision": 0.14285714285714285,
+      "escalation_recall": 0.6666666666666666,
+      "escalation_f1": 0.23529411764705882,
+      "policy_safe_auto_rate": 0.25,
+      "safe_automation_rate": 0.09090909090909091,
+      "safe_automation_95ci": [
+        0.0,
+        0.2727272727272727
+      ],
+      "unsafe_auto_handle_rate": 0.16666666666666666,
+      "judge_reply_pass_rate": 0.18181818181818182,
+      "model_error_rate": 0.01
+    }
+  },
+  "challenge": {
+    "trivial": {
+      "count": 50,
+      "intent_accuracy": 0.22,
+      "intent_macro_f1": 0.05152224824355972,
+      "escalation_precision": 0.42,
+      "escalation_recall": 1.0,
+      "escalation_f1": 0.5915492957746479,
+      "policy_safe_auto_rate": 0.0,
+      "safe_automation_rate": 0.0,
+      "safe_automation_95ci": [
+        0.0,
+        0.0
+      ],
+      "unsafe_auto_handle_rate": 0.0,
+      "judge_reply_pass_rate": 0.0,
+      "model_error_rate": 0.0
+    },
+    "simple": {
+      "count": 50,
+      "intent_accuracy": 0.44,
+      "intent_macro_f1": 0.39486703772418064,
+      "escalation_precision": 0.6071428571428571,
+      "escalation_recall": 0.8095238095238095,
+      "escalation_f1": 0.6938775510204082,
+      "policy_safe_auto_rate": 0.36,
+      "safe_automation_rate": 0.16666666666666666,
+      "safe_automation_95ci": [
+        0.0,
+        0.5
+      ],
+      "unsafe_auto_handle_rate": 0.18181818181818182,
+      "judge_reply_pass_rate": 0.16666666666666666,
+      "model_error_rate": 0.0
+    },
+    "main": {
+      "count": 50,
+      "intent_accuracy": 0.82,
+      "intent_macro_f1": 0.7858833712870981,
+      "escalation_precision": 0.4878048780487805,
+      "escalation_recall": 0.9523809523809523,
+      "escalation_f1": 0.6451612903225806,
+      "policy_safe_auto_rate": 0.16,
+      "safe_automation_rate": 0.1111111111111111,
+      "safe_automation_95ci": [
+        0.0,
+        0.3333333333333333
+      ],
+      "unsafe_auto_handle_rate": 0.1111111111111111,
+      "judge_reply_pass_rate": 0.4444444444444444,
+      "model_error_rate": 0.0
+    }
+  },
+  "judge_human_agreement": {
+    "weighted_kappa_groundedness": -0.025421918393505605,
+    "weighted_kappa_helpfulness": 0.4444444444444444,
+    "weighted_kappa_tone": 0.06528189910979232,
+    "weighted_kappa_safety": 0.13509060955518948,
+    "spearman_total": 0.3042447208490223,
+    "pass_accuracy": 0.42,
+    "pass_precision": 0.6,
+    "pass_recall": 0.1935483870967742,
+    "pass_f1": 0.2926829268292683,
+    "human_human_kappa": {
+      "groundedness": 0.9929636926540951,
+      "helpfulness": 1.0,
+      "tone": 1.0,
+      "safety": 1.0
+    },
+    "count": 50
+  },
+  "label_agreement": {
+    "count": 50,
+    "intent_accuracy": 0.74,
+    "intent_kappa": 0.6929617383089277,
+    "escalation_accuracy": 0.78,
+    "escalation_kappa": 0.5528455284552846
+  }
+}

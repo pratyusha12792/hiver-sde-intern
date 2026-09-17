@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+data/raw/
+data/processed/
+artifacts/*.joblib
+.env
+.env.*
+!.env.example
